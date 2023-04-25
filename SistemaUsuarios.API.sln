@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaUsuarios.API", "SistemaUsuarios.API\SistemaUsuarios.API.csproj", "{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Serviços", "1 - Camada de Serviços", "{14A87BAE-ED45-4B2B-83B7-B6197580EF89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Acesso a Dados", "2 - Camada de Acesso a Dados", "{8C82CABA-BCBE-4353-B133-1638471DC637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaUsuarios.Data", "SistemaUsuarios.Data\SistemaUsuarios.Data.csproj", "{F984B82D-93F8-42D4-B225-BEB5DF3C0172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Envio de Mensagem", "3 - Camada de Envio de Mensagem", "{0472B8C1-092B-40B1-BA81-A23501E85CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaUsuarios.Messages", "SistemaUsuarios.Messages\SistemaUsuarios.Messages.csproj", "{A9ACB108-13D6-4D0A-89B9-FA195C805964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F984B82D-93F8-42D4-B225-BEB5DF3C0172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F984B82D-93F8-42D4-B225-BEB5DF3C0172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F984B82D-93F8-42D4-B225-BEB5DF3C0172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F984B82D-93F8-42D4-B225-BEB5DF3C0172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ACB108-13D6-4D0A-89B9-FA195C805964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ACB108-13D6-4D0A-89B9-FA195C805964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ACB108-13D6-4D0A-89B9-FA195C805964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ACB108-13D6-4D0A-89B9-FA195C805964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7EF26D8-42FE-424B-B86C-4EC2B6A33B69} = {14A87BAE-ED45-4B2B-83B7-B6197580EF89}
+		{F984B82D-93F8-42D4-B225-BEB5DF3C0172} = {8C82CABA-BCBE-4353-B133-1638471DC637}
+		{A9ACB108-13D6-4D0A-89B9-FA195C805964} = {0472B8C1-092B-40B1-BA81-A23501E85CDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {277E0A00-9DBA-4206-980F-9C2EE30798B2}
+	EndGlobalSection
+EndGlobal

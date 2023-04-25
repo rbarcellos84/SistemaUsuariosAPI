@@ -1,0 +1,1 @@
+Serviço de controle de acesso de usuário, onde teremos as funcionalidades de cadastro, login, recuperar senha e alterar a senha, onde utilizamos as tecnologias utilizadas no projeto EntityFramework (Core/Design/SqlServer/Tools), REST, ORM e Migrations, SqlServer, swagger, Json, JSON WEB TOKEN-JWT para autenticação de usuário e utilização do Bogus geração de dados de teste.
